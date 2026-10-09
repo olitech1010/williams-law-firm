@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": ".agents/hooks/session-start.sh"
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "command": ".agents/hooks/user-prompt-submit.sh"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "command": ".agents/hooks/pre-tool-use.sh"
+      }
+    ],
+    "SessionEnd": [
+      {
+        "command": ".agents/hooks/session-end.sh"
+      }
+    ]
+  }
+}

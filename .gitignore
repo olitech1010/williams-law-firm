@@ -1,0 +1,15 @@
+# Dev-OS temporary backups
+.agents/_backup/
+
+# Dev-OS runtime session state
+.agents/memory/session.json
+.agents/memory/sdlc-state.json
+
+# Node
+node_modules
+
+# Next.js
+.next
+.env
+.env.local
+out
