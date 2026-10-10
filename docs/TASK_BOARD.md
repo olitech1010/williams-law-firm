@@ -23,15 +23,16 @@
 *(none — run `devos task start <id>` to begin)*
 
 ### [ QUEUED ]
-### TASK-008: Develop UI Components and Home Page
-- **Assignee:** Developer
-- **DependsOn:** TASK-005
-- **Triage Level:** STANDARD
+*(none)*
 
 ### [ BACKLOG ]
 *(none)*
 
 ### [ DONE ]
+### TASK-008: Develop UI Components and Home Page
+- **Assignee:** Developer
+- **Status:** Done
+
 ### TASK-005: Setup Next.js Project & Tailwind
 - **Assignee:** Developer
 - **Status:** Done
