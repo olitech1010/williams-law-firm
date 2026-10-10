@@ -175,7 +175,7 @@ export default function Home() {
               <div className="w-full lg:w-5/12">
                 <div className="relative h-[600px] rounded-xl overflow-hidden shadow-2xl">
                   {/* Professional Setup image */}
-                  <Image src="https://images.pexels.com/photos/7841812/pexels-photo-7841812.jpeg" alt="Randall DeWitt Williams, Esq. - Professional Setup" fill className="object-cover" />
+                  <Image src="/attorney-office.jpg" alt="Randall DeWitt Williams, Esq. - Professional Setup" fill className="object-cover" />
                 </div>
               </div>
               <div className="w-full lg:w-7/12 flex flex-col justify-center">
