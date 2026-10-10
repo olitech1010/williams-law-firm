@@ -21,8 +21,8 @@ export default function Home() {
               <Link href="#practice-areas" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">Practice Areas</Link>
               <Link href="#about" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">About</Link>
               <Link href="#contact" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">Contact</Link>
-              <a href="tel:803-637-4902" className="bg-amber-700 hover:bg-amber-800 text-white px-5 py-2.5 rounded-md font-semibold transition-colors shadow-sm">
-                (803) 637-4902
+              <a href="tel:+16109986455" className="bg-amber-700 hover:bg-amber-800 text-white px-5 py-2.5 rounded-md font-semibold transition-colors shadow-sm">
+                +1 (610) 998 6455
               </a>
             </div>
           </div>
@@ -51,8 +51,8 @@ export default function Home() {
                 Providing dedicated and aggressive representation in Workers' Compensation, Personal Injury, Probate, and Civil Litigation for over 30 years.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:803-637-4902" className="inline-flex justify-center items-center bg-amber-700 hover:bg-amber-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors shadow-lg">
-                  Call (803) 637-4902
+                <a href="tel:+16109986455" className="inline-flex justify-center items-center bg-amber-700 hover:bg-amber-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors shadow-lg">
+                  Call +1 (610) 998 6455
                 </a>
                 <a href="#contact" className="inline-flex justify-center items-center bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors shadow-lg">
                   Contact Us
@@ -305,7 +305,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-lg mb-1">Phone & Email</h4>
                       <p className="text-blue-100 leading-relaxed">
-                        <a href="tel:803-637-4902" className="hover:text-white transition-colors block mb-1 font-semibold text-xl">(803) 637-4902</a>
+                        <a href="tel:+16109986455" className="hover:text-white transition-colors block mb-1 font-semibold text-xl">+1 (610) 998 6455</a>
                         <a href="mailto:Wms_lawfirm@bellsouth.net" className="hover:text-white transition-colors break-all opacity-80">Wms_lawfirm@bellsouth.net</a>
                       </p>
                     </div>
