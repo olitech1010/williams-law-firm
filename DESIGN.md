@@ -39,6 +39,6 @@
 
 ### Pre-Delivery Checklist
 - [ ] Custom SVG/Image logo implemented.
-- [ ] Direct call link `tel:803-637-4902` on CTAs.
+- [ ] Direct call link `tel:+18645698329` on CTAs (+1(864) 569-8329).
 - [ ] Map embed configured for 201 Buncombe St, Edgefield, SC.
 - [ ] WCAG AA contrast compliance.

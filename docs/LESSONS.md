@@ -22,4 +22,9 @@ Each entry follows this structure:
 
 ## Entries
 
-*(none — lessons will be recorded here as the project evolves)*
+### 2026-10-13: Mechanical Scanner Blind Spot for AI Verbal Crutches
+**Context:** Auditing generated UI copy for The Williams Law Firm website hero carousel and practice area cards.
+**Issue:** The word "navigating" (a ubiquitous AI crutch) slipped through because `.agents/scripts/humanize-check.sh` was scoped strictly to markdown documents in `/docs/`, and its internal regex wordlist omitted common verbal tropes like `navigate/navigating`, `fostering`, and `beacon`.
+**Resolution:** Replaced all occurrences of "navigating" across the UI copy with grounded, concrete legal actions. Updated `.agents/scripts/humanize-check.sh` and `.agents/scripts/ui-taste-check.sh` regex patterns to permanently flag `navigating`, `navigate your`, and related AI tropes across both docs and frontend UI files.
+**Prevention:** Keep mechanical scanner regex lists synchronized with `.agents/skills/humanizer/SKILL.md` and ensure frontend UI taste checks audit copy for conversational AI clichés.
+**Tags:** [#humanizer, #ui-taste, #anti-slop, #copywriting]

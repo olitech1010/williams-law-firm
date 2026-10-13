@@ -201,6 +201,7 @@ elif [ -d "$INPUT_PATH" ]; then
     tar -C "$PROJECT_PATH" \
         --exclude='node_modules' \
         --exclude='.git' \
+        --exclude='.next' \
         --exclude='.env' \
         --exclude='.env.*' \
         -cf - . | tar -C "$STAGING_DIR" -xf -

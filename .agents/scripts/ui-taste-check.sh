@@ -80,9 +80,9 @@ with open(sys.argv[1], 'r', encoding='utf-8', errors='ignore') as f:
         file_failures=$((file_failures + 1))
     fi
 
-    # 4. Check for Cliché AI Hero Marketing Buzzwords
+    # 4. Check for Cliché AI Hero Marketing Buzzwords & Copy Clichés
     local buzz_matches
-    buzz_matches=$(grep -Ein "(all-in-one platform|supercharge your|unleash the power|streamline your workflow|blazing fast performance)" "$file" | grep -v "^[[:space:]]*//")
+    buzz_matches=$(grep -Ein "(all-in-one platform|supercharge your|unleash the power|streamline your workflow|blazing fast performance|navigating (complex|the|your)|navigate your|delve into|testament to|fostering a)" "$file" | grep -v "^[[:space:]]*//")
     if [ -n "$buzz_matches" ]; then
         echo "  ⚠️ [SLOP §7] Generic AI marketing buzzwords detected in $file:"
         echo "$buzz_matches" | sed 's/^/      Line /' | head -n 3

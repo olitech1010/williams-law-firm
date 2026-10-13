@@ -36,7 +36,7 @@ FAILURES=0
 echo "🔍 Auditing '$TARGET_FILE' for AI writing patterns..."
 
 # 1. Check for banned fluff words
-BANNED_WORDS='delve|deep dive|crucial|pivotal|tapestry|stands as a testament|groundbreaking|nestled in|game-changer|revolutionize|meticulously'
+BANNED_WORDS='delve|deep dive|crucial|pivotal|tapestry|stands as a testament|testament to|groundbreaking|nestled in|game-changer|revolutionize|meticulously|navigating|navigate your|fostering|beacon of|seamlessly|harnessing'
 MATCHES=$(grep -Ein "\b($BANNED_WORDS)\b" "$TARGET_FILE" | grep -v "^[[:space:]]*#" | grep -v "\`" | head -n 5)
 
 if [ -n "$MATCHES" ]; then

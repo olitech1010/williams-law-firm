@@ -20,7 +20,13 @@
 ## Active Board
 
 ### [ IN_PROGRESS ]
-*(none — run `devos task start <id>` to begin)*
+*(none)*
+
+### [ PARALLEL_GATE ]
+*(passed — QA: pass, Tester: pass, Security: pass)*
+
+### [ HUMAN_CHECKPOINT ]
+*(none)*
 
 ### [ QUEUED ]
 *(none)*
@@ -29,6 +35,14 @@
 *(none)*
 
 ### [ DONE ]
+### TASK-009: Update Phone Number & Add Hero Carousel with Generated Team/Office Imagery
+- **Assignee:** Developer
+- **DependsOn:** None
+- **Triage Level:** STANDARD
+- **ParallelGate:** QA: pass, Tester: pass, Security: pass
+- **HumanCheckpoint:** approved
+- **Artifacts:** `src/app/page.tsx`, `src/components/HeroSlider.tsx`, `public/hero-*.jpg`, `public/hero-slider.gif`
+
 ### TASK-008: Develop UI Components and Home Page
 - **Assignee:** Developer
 - **Status:** Done

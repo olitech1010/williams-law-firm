@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroSlider from "@/components/HeroSlider";
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
               <Link href="#practice-areas" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">Practice Areas</Link>
               <Link href="#about" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">About</Link>
               <Link href="#contact" className="text-slate-900 hover:text-blue-900 font-medium transition-colors">Contact</Link>
-              <a href="tel:+16109986455" className="bg-amber-700 hover:bg-amber-800 text-white px-5 py-2.5 rounded-md font-semibold transition-colors shadow-sm">
-                +1 (610) 998 6455
+              <a href="tel:+18645698329" className="bg-amber-700 hover:bg-amber-800 text-white px-5 py-2.5 rounded-md font-semibold transition-colors shadow-sm">
+                +1 (864) 569-8329
               </a>
             </div>
           </div>
@@ -30,37 +31,8 @@ export default function Home() {
       </header>
 
       <main className="flex-grow">
-        {/* Hero Section */}
-        <section className="relative">
-          <div className="absolute inset-0 w-full h-[600px]">
-            <Image 
-              src="https://images.pexels.com/photos/8850748/pexels-photo-8850748.jpeg" 
-              alt="Classic timber desk and law books" 
-              fill 
-              className="object-cover"
-              priority
-            />
-            <div className="absolute inset-0 bg-slate-900/70 mix-blend-multiply"></div>
-          </div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[600px] flex items-center">
-            <div className="max-w-3xl pt-12">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6 drop-shadow-lg">
-                Experienced Legal Guidance for Edgefield and the CSRA
-              </h1>
-              <p className="text-xl text-slate-100 mb-8 max-w-2xl font-light drop-shadow">
-                Providing dedicated and aggressive representation in Workers' Compensation, Personal Injury, Probate, and Civil Litigation for over 30 years.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:+16109986455" className="inline-flex justify-center items-center bg-amber-700 hover:bg-amber-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors shadow-lg">
-                  Call +1 (610) 998 6455
-                </a>
-                <a href="#contact" className="inline-flex justify-center items-center bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors shadow-lg">
-                  Contact Us
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Hero Section with 5s slider */}
+        <HeroSlider />
 
         {/* Trust Badges */}
         <section className="bg-blue-900 text-white py-12 relative z-10 -mt-8 mx-4 sm:mx-8 lg:mx-auto max-w-7xl rounded-xl shadow-2xl">
@@ -105,7 +77,7 @@ export default function Home() {
                 <div className="sm:w-3/5 p-6 md:p-8 flex flex-col justify-center">
                   <h3 className="font-serif font-bold text-2xl text-blue-900 mb-3">Workers' Compensation</h3>
                   <p className="text-slate-600 mb-6 flex-grow">
-                    Representing injured employees navigating the South Carolina Workers' Compensation Commission, securing coverage for medical care, lost wages, and permanent disability.
+                    Representing injured employees before the South Carolina Workers' Compensation Commission to secure medical care, lost wage replacement, and disability benefits.
                   </p>
                   <a href="#contact" className="text-amber-700 font-semibold hover:text-amber-800 inline-flex items-center group/link">
                     Request Consultation
@@ -239,7 +211,7 @@ export default function Home() {
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-blue-900 mb-4">Contact The Firm</h2>
               <div className="w-24 h-1 bg-amber-700 mx-auto"></div>
               <p className="mt-6 text-lg text-slate-600 max-w-2xl mx-auto">
-                Reach out to schedule a consultation. We are here to help you navigate your legal challenges.
+                Schedule a confidential consultation to discuss your case and explore your legal options.
               </p>
             </div>
 
@@ -305,7 +277,7 @@ export default function Home() {
                     <div>
                       <h4 className="font-bold text-lg mb-1">Phone & Email</h4>
                       <p className="text-blue-100 leading-relaxed">
-                        <a href="tel:+16109986455" className="hover:text-white transition-colors block mb-1 font-semibold text-xl">+1 (610) 998 6455</a>
+                        <a href="tel:+18645698329" className="hover:text-white transition-colors block mb-1 font-semibold text-xl">+1 (864) 569-8329</a>
                         <a href="mailto:Wms_lawfirm@bellsouth.net" className="hover:text-white transition-colors break-all opacity-80">Wms_lawfirm@bellsouth.net</a>
                       </p>
                     </div>
