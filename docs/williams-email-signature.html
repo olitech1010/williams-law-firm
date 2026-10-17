@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Williams Law Firm - Email Signature (Randall DeWitt Williams, Esq.)</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f1f5f9;
+      color: #0f172a;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .preview-card {
+      max-width: 680px;
+      margin: 0 auto 30px auto;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    }
+    .preview-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .preview-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e3a8a;
+      margin: 0;
+    }
+    .copy-btn {
+      background-color: #b45309;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .copy-btn:hover {
+      background-color: #92400e;
+    }
+    .instructions-card {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 24px 32px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #334155;
+    }
+    .instructions-card h3 {
+      font-size: 15px;
+      color: #1e3a8a;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    .instructions-card ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Instructions Container for Browser Viewing -->
+  <div class="preview-card">
+    <div class="preview-header">
+      <h1 class="preview-title">Email Signature Preview</h1>
+      <button class="copy-btn" onclick="copySignature()">Copy to Clipboard</button>
+    </div>
+
+    <!-- START OF EMAIL SIGNATURE HTML (COMPATIBLE WITH GMAIL, OUTLOOK, APPLE MAIL) -->
+    <div id="signature-container">
+      <table cellpadding="0" cellspacing="0" border="0" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1.4; color: #0f172a; max-width: 580px;">
+        <tbody>
+          <tr>
+            <!-- Left Column: Portrait Headshot / Monogram Badge -->
+            <td valign="top" style="padding-right: 20px; padding-top: 4px; vertical-align: top; width: 85px;">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center">
+                    <img src="https://thewilliams-lawfirm.com/attorney-formal.jpg" alt="Randall DeWitt Williams, Esq." width="80" height="80" style="display: block; width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #b45309;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top: 6px;">
+                    <span style="font-family: Georgia, serif; font-size: 10px; font-weight: bold; color: #1e3a8a; letter-spacing: 0.5px; text-transform: uppercase;">Est. 1996</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <!-- Vertical Amber Divider -->
+            <td valign="top" style="border-left: 2px solid #b45309; padding-left: 18px; vertical-align: top;">
+              <table cellpadding="0" cellspacing="0" border="0" style="font-size: 13px; color: #0f172a;">
+                <!-- Attorney Name & Titles -->
+                <tr>
+                  <td style="padding-bottom: 2px;">
+                    <span style="font-family: Georgia, 'Times New Roman', serif; font-size: 18px; font-weight: bold; color: #1e3a8a; letter-spacing: -0.2px;">Randall DeWitt Williams, Esq.</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-bottom: 8px;">
+                    <span style="font-size: 12px; font-weight: 600; color: #b45309; text-transform: uppercase; letter-spacing: 0.5px;">Attorney &amp; Counselor at Law | Principal</span>
+                  </td>
+                </tr>
+
+                <!-- Firm Branding -->
+                <tr>
+                  <td style="padding-bottom: 8px;">
+                    <span style="font-family: Georgia, serif; font-size: 14px; font-weight: bold; color: #0f172a;">The Williams Law Firm</span>
+                    <span style="color: #64748b; font-size: 12px; margin-left: 4px;">&bull; Licensed in SC &amp; NC</span>
+                  </td>
+                </tr>
+
+                <!-- Contact Points -->
+                <tr>
+                  <td style="padding-bottom: 4px; font-size: 12px; color: #334155;">
+                    <strong style="color: #1e3a8a;">Direct:</strong> <a href="tel:+18645698329" style="color: #1e3a8a; text-decoration: none; font-weight: 600;">+1 (864) 569-8329</a>
+                    <span style="color: #cbd5e1; margin: 0 6px;">|</span>
+                    <strong style="color: #1e3a8a;">Email:</strong> <a href="mailto:williams@thewilliams-lawfirm.com" style="color: #b45309; text-decoration: none; font-weight: 600;">williams@thewilliams-lawfirm.com</a>
+                  </td>
+                </tr>
+
+                <!-- Address & Web -->
+                <tr>
+                  <td style="padding-bottom: 8px; font-size: 12px; color: #475569;">
+                    <strong style="color: #1e3a8a;">Office:</strong> 201 Buncombe St, Edgefield, SC 29824
+                    <span style="color: #cbd5e1; margin: 0 6px;">|</span>
+                    <strong style="color: #1e3a8a;">Mail:</strong> P.O. Box 70
+                    <br>
+                    <strong style="color: #1e3a8a;">Website:</strong> <a href="https://thewilliams-lawfirm.com" target="_blank" style="color: #1e3a8a; text-decoration: underline;">thewilliams-lawfirm.com</a>
+                  </td>
+                </tr>
+
+                <!-- Practice Areas Badge Row -->
+                <tr>
+                  <td style="padding-top: 4px; padding-bottom: 12px; border-top: 1px solid #e2e8f0; font-size: 11px; color: #64748b;">
+                    <span style="font-weight: 600; color: #1e3a8a;">Practice Areas:</span> Workers&rsquo; Compensation &bull; Personal Injury &bull; Probate &amp; Estate &bull; Civil Litigation
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Legal Disclaimer & Confidentiality Notice -->
+          <tr>
+            <td colspan="2" style="padding-top: 12px; border-top: 1px solid #e2e8f0;">
+              <p style="margin: 0; font-size: 9px; line-height: 1.4; color: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;">
+                <strong>CONFIDENTIALITY NOTICE:</strong> This electronic message and any attachments contain information from The Williams Law Firm which may be confidential, legally privileged, and exempt from disclosure under applicable law. This transmission is intended solely for the use of the intended recipient. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, copying, distribution, or taking of any action in reliance on the contents of this information is strictly prohibited. If you have received this message in error, please immediately notify the sender by return email and destroy all copies of the original message and any attachments.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- END OF EMAIL SIGNATURE HTML -->
+  </div>
+
+  <!-- How to Install Guide -->
+  <div class="instructions-card">
+    <h2 style="font-size: 16px; margin-top: 0; color: #1e3a8a;">How to Install in Your Email Client</h2>
+
+    <h3>Google Workspace / Gmail</h3>
+    <ol>
+      <li>Click the <strong>Copy to Clipboard</strong> button above (or highlight and copy the signature box).</li>
+      <li>Open Gmail and click the <strong>Gear icon (Settings)</strong> &gt; <strong>See all settings</strong>.</li>
+      <li>Scroll down to the <strong>Signature</strong> section and click <strong>Create new</strong> (or edit your existing signature).</li>
+      <li>Paste (<kbd>Ctrl+V</kbd> or <kbd>Cmd+V</kbd>) into the text box and click <strong>Save Changes</strong> at the bottom.</li>
+    </ol>
+
+    <h3>Microsoft Outlook (Desktop &amp; Web)</h3>
+    <ol>
+      <li>Click <strong>Copy to Clipboard</strong> above.</li>
+      <li>In Outlook, go to <strong>File</strong> &gt; <strong>Options</strong> &gt; <strong>Mail</strong> &gt; <strong>Signatures</strong> (or <strong>Settings</strong> &gt; <strong>Mail</strong> &gt; <strong>Compose and reply</strong> on Outlook Web).</li>
+      <li>Create a new signature, paste the signature, and select it as default for new messages and replies.</li>
+    </ol>
+
+    <h3>Apple Mail (macOS)</h3>
+    <ol>
+      <li>In Apple Mail, open <strong>Settings / Preferences</strong> (<kbd>Cmd + ,</kbd>) &gt; <strong>Signatures</strong> tab.</li>
+      <li>Select your account, click <strong>+</strong>, and paste the copied signature.</li>
+      <li>Ensure <em>"Always match my default message font"</em> is <strong>unchecked</strong> to preserve firm typography.</li>
+    </ol>
+  </div>
+
+  <script>
+    function copySignature() {
+      const container = document.getElementById('signature-container');
+      const range = document.createRange();
+      range.selectNode(container);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      try {
+        document.execCommand('copy');
+        const btn = document.querySelector('.copy-btn');
+        btn.innerText = 'Copied to Clipboard!';
+        btn.style.backgroundColor = '#16a34a';
+        setTimeout(() => {
+          btn.innerText = 'Copy to Clipboard';
+          btn.style.backgroundColor = '#b45309';
+        }, 2500);
+      } catch (err) {
+        alert('Please manually select and copy the signature.');
+      }
+      window.getSelection().removeAllRanges();
+    }
+  </script>
+</body>
+</html>

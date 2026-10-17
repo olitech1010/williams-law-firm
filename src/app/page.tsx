@@ -278,7 +278,7 @@ export default function Home() {
                       <h4 className="font-bold text-lg mb-1">Phone & Email</h4>
                       <p className="text-blue-100 leading-relaxed">
                         <a href="tel:+18645698329" className="hover:text-white transition-colors block mb-1 font-semibold text-xl">+1 (864) 569-8329</a>
-                        <a href="mailto:Wms_lawfirm@bellsouth.net" className="hover:text-white transition-colors break-all opacity-80">Wms_lawfirm@bellsouth.net</a>
+                        <a href="mailto:williams@thewilliams-lawfirm.com" className="hover:text-white transition-colors break-all opacity-80">williams@thewilliams-lawfirm.com</a>
                       </p>
                     </div>
                   </div>

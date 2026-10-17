@@ -7,8 +7,8 @@ Firm Profile & Metadata
 • Lead Attorney: Randall DeWitt Williams, Esq.
 • Physical Address: 201 Buncombe Street, Edgefield, SC 29824
 • Mailing Address: P.O. Box 70, Edgefield, SC 29824
-• Telephone: (803) 637-4902
-• Primary Email: Wms_lawfirm@bellsouth.net (from South Carolina Supreme Court public filings)
+• Telephone: +1 (864) 569-8329
+• Primary Email: williams@thewilliams-lawfirm.com
 • Target Audience: Individuals, workers, and families across Edgefield County and the Central Savannah River Area (CSRA).
 
 Attorney Background & Credentials

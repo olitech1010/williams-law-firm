@@ -35,6 +35,14 @@
 *(none)*
 
 ### [ DONE ]
+### TASK-010: Update Email to williams@thewilliams-lawfirm.com and Create HTML Email Signature
+- **Assignee:** Developer
+- **DependsOn:** None
+- **Triage Level:** TRIVIAL
+- **ParallelGate:** QA: pass, Tester: pass, Security: pass
+- **HumanCheckpoint:** approved
+- **Artifacts:** `src/app/page.tsx`, `about.md`, `docs/williams-email-signature.html`, `docs/email-signature.html`
+
 ### TASK-009: Update Phone Number & Add Hero Carousel with Generated Team/Office Imagery
 - **Assignee:** Developer
 - **DependsOn:** None
